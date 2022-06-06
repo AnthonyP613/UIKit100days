@@ -10,10 +10,12 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     var selectedImage: String?
+    var indexOfThisPic: Int?
+    var totalNumberOfPic: Int?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = selectedImage
+        title = "Picture \(indexOfThisPic) of \(totalNumberOfPic)"
         navigationItem.largeTitleDisplayMode = .never
         
         if let imageToLoad = selectedImage {
