@@ -1,4 +1,4 @@
-# Project 1 in UIKit (Day 16 to 22)
+# Project 1 in UIKit (Day 16 to 18)
 
 ## Day 16: Issue1: The list of picture didn't come
 - trying at the first place, The list of picture file didn't come without the setting of Customer Class: View Controller in the Main.storyboard. 
