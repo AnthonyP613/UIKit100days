@@ -21,8 +21,16 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         countries += ["estonia", "france","germany","ireland","italy","monaco", "nigeria", "poland", "russia", "spain", "us", "uk"]
-        
-        settingButtonStyle(buttons: [button1, button2, button3])
+            
+        button1.layer.borderWidth = 1
+        button2.layer.borderWidth = 1
+        button3.layer.borderWidth = 1
+
+        button1.layer.borderColor = UIColor.lightGray.cgColor
+        button2.layer.borderColor = UIColor.lightGray.cgColor
+        button3.layer.borderColor = UIColor.lightGray.cgColor
+
+        //settingButtonStyle(buttons: [button1, button2, button3])
         
         askQuestion()
     }

@@ -12,3 +12,7 @@
 
 ## Day 18: Issue4: Array sorted, need to know more 
 - array.sorted() worked, but for making this more sophisticated use, needed to know more how to do this. 
+
+## Day 23: Issue5: Fixing "Info.plist" for allowing image share feature, "Privacy - Photo Libarary Additions Usage Description"
+
+
