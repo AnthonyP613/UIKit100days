@@ -6,3 +6,7 @@
 - even thought the buttons were set as width 200/ height 100, second and third ones are changed slightly.
 
 - Still, Using Interface Builder is the issue, can't fix the border of button fittable to the image. so now bigger gray border than picture's size itself.
+
+
+> 　Can't understand but by changing Content inset from Default to Custom, the border was set to fit into the picture. ** Content Insets
+

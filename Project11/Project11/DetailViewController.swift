@@ -13,9 +13,11 @@ class DetailViewController: UIViewController {
     var indexOfThisPic: Int?
     var totalNumberOfPic: Int?
     
+    var notFoundString = "notFound"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Picture \(indexOfThisPic) of \(totalNumberOfPic)"
+        title = "Picture \(indexOfThisPic!) of \(totalNumberOfPic!)"
         navigationItem.largeTitleDisplayMode = .never
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
         
